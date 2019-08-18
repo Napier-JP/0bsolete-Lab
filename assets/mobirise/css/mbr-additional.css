@@ -2233,14 +2233,18 @@ html, body {
   content: '';
   display: inline-block;
   text-align: center;
-  margin: 5px 10px;
+  margin: 8px 25px;
   line-height: 20px;
   transition: all .2s;
   color: #000000;
   background: #c1c1c1;
-  width: 25px;
-  height: 25px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
+}
+
+.profile_section_basic .counter-container ul li ul li:before {
+  display: none;
 }
 
 .profile_section_basic .mbr-text UL {
